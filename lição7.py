@@ -5,8 +5,8 @@ nota_3 = float(input("terceira nota?"))
 media = (nota_1 + nota_2 + nota_3)/3
 print(media)
 if media >= 7:
-    print(f"O {nome} aprovado por {media}")
+    print(f"{nome} aprovado por {media}")
 elif media >= 4:
-    print(f"O {nome} em recuperação por {media}")
+    print(f"{nome} em recuperação por {media}")
 else:
-    print(f"O {nome}, seu QI é negativo, por {media}")
+    print(f"{nome}, seu QI é negativo, por {media}")
